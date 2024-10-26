@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-purple {
+    background-color: #5932EA;
+}
+
+.bg-gradient {
+    background: black;
+}
+
+.sidebar {
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.wallet-balance {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-balance {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.progress {
+    height: 8px;
+}
+
+.text-purple {
+    color: #5932EA;
+}
+
+.btn-purple {
+    background-color: #5932EA;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: #4a2bc0;
+    color: #fff;
+}
